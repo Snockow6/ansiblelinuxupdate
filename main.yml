@@ -1,0 +1,10 @@
+---
+- hosts: machines
+  become: true
+  tasks:
+  
+    - name: Update all Packages
+      package:
+        name: *
+        state: latest
+        
