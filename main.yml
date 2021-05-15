@@ -1,5 +1,5 @@
 ---
-- hosts: machines
+- hosts: all
   become: true
   tasks:
   
